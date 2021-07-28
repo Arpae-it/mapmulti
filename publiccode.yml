@@ -1,0 +1,53 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - data-visualization
+description:
+  en:
+    features:
+      - a fast viewer of some open data resources of Arpae Emilia Romagna
+    genericName: mapmulti
+    localisedName: mapmulti
+    longDescription: |
+      This software, written in R, and deployed as a Shiny application, is a fast and reliable solution to show some thematic data available at https://dati.arpae.it. It provides
+      a simple and flexible solution to show data available as Google Sheet. It provides some examples of data manipulation (mainly to address problems like the decimal and thousand separator).
+      The resulting data is displayed using the leaflet R package (https://rstudio.github.io/leaflet/).
+    shortDescription: |
+     A fast and reliable viewer for generic data based on Google Sheets
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: arpa
+legal:
+  license: AGPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+    - name: Paolo Veronesi
+  type: community
+name: mapmulti
+platforms:
+  - linux
+  - windows
+  - mac
+releaseDate: '2021-07-28'
+softwareType: standalone/web
+softwareVersion: stable
+url: 'https://github.com/Arpae-it/mapmulti'
