@@ -33,6 +33,9 @@ it:
     spid: false
   riuso:
     codiceIPA: arpa
+ screenshots:
+      - >-
+        screenshot.png
 legal:
   license: AGPL-3.0-or-later
 localisation:
