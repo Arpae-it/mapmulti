@@ -18,6 +18,8 @@ description:
       The resulting data is displayed using the leaflet R package (https://rstudio.github.io/leaflet/) and deployed as a Shiny application. 
     shortDescription: |
      A fast and reliable viewer for generic data based on Google Sheets
+    screenshots:
+      - screenshot.png
 developmentStatus: stable
 it:
   conforme:
@@ -33,9 +35,7 @@ it:
     spid: false
   riuso:
     codiceIPA: arpa
- screenshots:
-      - >-
-        screenshot.png
+
 legal:
   license: AGPL-3.0-or-later
 localisation:
